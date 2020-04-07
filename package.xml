@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Codesbug_Colorswatch</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/OSL-3.0">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Colorswatch Module provides product, color, and user can choose any color of the products</summary>
+    <description>Colorswatch Module provides product, color, and user can choose any color of the products</description>
+    <notes>First release</notes>
+    <authors><author><name>Amaresh Tiwari</name><user>amareshtiwari</user><email>codesbug@gmail.com</email></author></authors>
+    <date>2020-04-07</date>
+    <time>06:55:36</time>
+    <contents><target name="magelocal"><dir name="Codesbug"><dir name="Colorswatch"><dir name="Block"><dir name="Adminhtml"><file name="Form.php" hash="12a81743f07ba69208fa73fd993e1d2a"/><file name="Imageupload.php" hash="431f6e4e54fdc50e014c23bd8e0f1672"/></dir></dir><dir name="Helper"><file name="Data.php" hash="904705e928aa840fe4041cd3de3e3bf3"/></dir><dir name="Model"><file name="Observer.php" hash="cb52edaa8e7c24b2aacdf2824c78fc8c"/></dir><dir name="controllers"><file name="IndexController.php" hash="f125830f70bba2e3ca5545e38cbe5812"/></dir><dir name="etc"><file name="config.xml" hash="177c45ab94546183044ea9ed90f9b593"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="colorswatch.css" hash="9dc57ad7d69f02c8022af7cd7c5dad93"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="colorswatch"><file name="colorswatch.js" hash="d1d16e94903615712fdc9250392aef5c"/><file name="jquery-2.1.4.js" hash="c08f1111a1a8aae5eaebdd39d1270f86"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Codesbug_Colorswatch.xml" hash="43c42b564b0ca18288b54aa383e8f9e6"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="colorswatch.xml" hash="1ccd9f5de5fba99ad04f7d5a2fd1b740"/></dir><dir name="template"><dir name="colorswatch"><file name="colorswatch.phtml" hash="63c5bfa1048f1e1bf27fb223bf0481c6"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="colorswatch.xml" hash="6a0d97364a83d3a5eae957f7115a7ffc"/></dir><dir name="template"><dir name="colorswatch"><file name="jsdata.phtml" hash="91ea3d8bbf22834f21386ad75a2f0155"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
